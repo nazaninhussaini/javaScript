@@ -19,3 +19,4 @@ const divaid =(...a)=>{
     console.log(total);
 }
 divaid (1,5,9,3,5,7,1,0);
+c
