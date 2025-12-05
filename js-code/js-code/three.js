@@ -20,7 +20,7 @@ for(let i=0; i< zarb.length ; i++){
     console.log(total);
 }
 const letters =[];
-let words = "خانه";
+let words = "درد";
 let reversWord = "";
 for(let n = 0 ; n<words.length ; n++){
     letters.push(words[n]);
