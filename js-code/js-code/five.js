@@ -1,5 +1,5 @@
 //metodth map 
-const number = [1,2,3,4,5,7,5,8];
+const number = [11,22,23,34,45,67,65,88];
 const result= number.map((item)=>{
     return item+2
 })
@@ -10,7 +10,7 @@ number.forEach((item)=>{
 //metodth sort
 const alphba =["a","b","c","a","b","d","e"];
 const natija =alphba.sort((a,b)=>{
-    return b.localeCompare(a)
+    return a.localeCompare(b)
 })
 //metodth find index
 alphba.findIndex((item)=>{
