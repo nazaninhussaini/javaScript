@@ -4,13 +4,13 @@ console.log( listmyFrends.slice(0,2));
 const classFrend =listmyFrends.slice(1,5)
 //array in metoud find
 const myFrend = listmyFrends.find((myFrend)=>{
-    return myFrend=== "Masoda"
+    return myFrend=== "rayhan"
 })
 //array in metod find
 const result =listmyFrends.find((myFrend)=>{
     return myFrend.includes("k");
 })
-//array in metod filter
+//metohd array filter  
 const filter = listmyFrends.filter((name)=>{
-    return name.includes("o")
+    return name.includes("a")
 })
