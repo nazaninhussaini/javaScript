@@ -23,3 +23,27 @@ const some_every = name.some((names)=>{
     return names.includes("a")
 
 })
+const students = [
+    {
+        id:1,
+        name : "nazanin",
+        lastname : "Hussaini",
+    },
+     {
+        id:2,
+        name : "masoda",
+        lastname : "yawari",
+    },
+     {
+        id:3,
+        name : "Rayhan",
+        lastname : "mohammady",
+    },
+     {
+        id:4,
+        name : "mozghan",
+        lastname : "Hussaini",
+    }
+]
+const natijaa = students.find ((student)=> student.name.toLowerCase().includes("masoda"));
+
