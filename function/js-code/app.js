@@ -12,3 +12,8 @@ function sun(Number1,Number2,Number3,Number4 ) {
     console.log(Number1+Number2+Number3 +Number4);
 }
 sun(21, 24 , 56 , 76);
+
+function Names (name,lastName, age ){
+    console.log(name+lastName+age);
+}
+Names("nazanin","hussaini",18)
