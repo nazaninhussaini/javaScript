@@ -51,4 +51,5 @@ function sum (...a){
     return  total * sum
     },1)
 }
+
 sum(1,3,4,5,8,3)
