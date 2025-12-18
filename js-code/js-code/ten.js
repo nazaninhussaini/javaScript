@@ -1,10 +1,16 @@
-//function expreation 
-const sum = function (){
-    console.log(5+6);
-}
-sum();
-
-const num = (a,b)=>{
-    console.log(a+" "+b);
-}
-num("Nazanin","Hussaini");
+//API elements or doucments
+const body = document.body;
+const pText = document.createElement("p");
+pText.textContent="Hi Techer How are you";
+body.append(pText);
+//creat element with div
+const div = document.createElement("div");
+body.append(div);
+//creat element with div or p
+const p = document.createElement("p");
+p.textContent = "In the name of Allah ";
+div.append(p);
+//creat element with span
+const span = document.createElement("span");
+span.textContent = "Nazaznin";
+div.append(span)
