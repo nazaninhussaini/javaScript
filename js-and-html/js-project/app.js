@@ -15,4 +15,13 @@ const h2 = document.createElement ("h2")
 h2.textContent = "HI Iam Nazanin Hussaini";
 myDiv.append(h2);
 
+// const idBox = document.getElementById("p");
+// const querySelector = document.querySelectorAll("section");
+// querySelector[1].setAttribute("class","f");
+//به ایرور سر خوردیم 
 
+const loop = document.querySelectorAll("#d");
+while(i<loop){
+    loop[i].setAttribute("class","c");
+    i++;
+} 
