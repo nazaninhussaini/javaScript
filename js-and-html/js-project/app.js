@@ -29,5 +29,11 @@ const loop1 = document.querySelectorAll(".one");
 loop1.forEach(loop1=>{
     loop1.classList.add("g")
 });
+//loop with foreach
+const loopH3 = document.getElementById("h");
+const loop2 = document.querySelectorAll(".nazi");
+loop2.forEach(loop2=>{
+    querySelect.appendloop2;
+})
 
 
