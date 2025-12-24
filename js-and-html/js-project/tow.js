@@ -1,3 +1,3 @@
-const ul = document.querySelector("ul")
-ul.children
-ul.children[1]
+
+const header = document.body.firstElementChild;
+const input = document.body.lastElementChild;
